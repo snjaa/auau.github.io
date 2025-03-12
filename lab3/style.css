@@ -1,0 +1,272 @@
+.container{
+    width: 45vw;
+    height: 100vh;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body{
+    margin: 0;
+}
+.top{
+    background-color: bisque;
+    width: 100%;
+    height: 15%;
+}
+.ner{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    position: absolute;
+    left: 880px;
+    top: 100px;
+}
+.mergejil{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    position: absolute;
+    left: 880px;
+    top: 150px;
+}
+.infocon{
+    position: absolute;
+    border: 1px, solid, black;
+    bottom: 0px;
+    left: 550px;
+    height: 95%;
+    width: 300px;
+}
+.infocon .tseej{
+    width: 80%;
+    height: 275px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.infocon .phone{
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+.infocon .mail{
+    position: absolute;
+    top: 360px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+}
+.infocon .address{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 400px;
+}
+.infocon .dugaar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 70px;
+    top: 325px;
+}
+.infocon .shuudn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 70px;
+    top: 365px;
+}
+.infocon .hayg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 70px;
+    top: 405px;
+}
+.infocon .edutitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    font-size: 150%;
+    left: 30px;
+    top: 470px;
+    z-index: 2;
+}
+.infocon .eduback{
+    background-color: bisque;
+    position: absolute;
+    height: 35px;
+    width: 200px;
+    top: 467px;
+    left: 60px;
+    z-index: 1;
+}
+.infocon .edup1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 520px;
+}
+.infocon .edutitle2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    font-size: 150%;
+    left: 30px;
+    top:640px;
+    z-index: 2;
+}
+.infocon .eduback2{
+    background-color: bisque;
+    position: absolute;
+    height: 35px;
+    width: 200px;
+    top: 637px;
+    left: 60px;
+    z-index: 1;
+}
+.infocon .edup2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 690px;
+}
+.infocon .edutitle3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    font-size: 150%;
+    left: 30px;
+    top:800px;
+    z-index: 2;
+}
+.infocon .eduback3{
+    background-color: bisque;
+    position: absolute;
+    height: 35px;
+    width: 200px;
+    top: 797px;
+    left: 60px;
+    z-index: 1;
+}
+.infocon .edup3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 850px;
+}
+.proicon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 880px;
+    top: 200px;
+}
+.namtitle{
+    white-space: nowrap;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    z-index: 2;
+    left: 945px;
+    top: 210px;
+}
+.namp{
+    position: absolute;
+    top: 270px;
+    left: 880px;
+    right: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+.suit{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 880px;
+    top: 500px;
+    z-index: 2;
+}
+.wet{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    left: 945px;
+    top: 510px;
+    z-index: 2;
+}
+.line{
+    position:absolute;
+    background-color: black;
+    height: 350px;
+    width: 3px;
+    left: 1030px;
+    top:590px;
+    z-index: 2;
+}
+.soymbo{
+    position: absolute;
+    height: 650px;
+    width: 400px;
+    left: 910px;
+    top: 200px;
+    z-index: 1;
+    opacity: 30%;
+}
+.on1{
+    position: absolute;
+    left: 880px;
+    top: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    z-index: 2;
+}
+.we1{
+    position: absolute;
+    left: 1060px;
+    top: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+.on2{
+    position: absolute;
+    left: 880px;
+    top: 670px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    z-index: 2;
+}
+.we2{
+    position: absolute;
+    left: 1060px;
+    top: 670px;
+    right: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+.on3{
+    position: absolute;
+    left: 880px;
+    top: 740px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    z-index: 2;
+}
+.we3{
+    position: absolute;
+    left: 1060px;
+    top: 740px;
+    right: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+.on4{
+    position: absolute;
+    left: 880px;
+    top: 840px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    z-index: 2;
+}
+.we4{
+    position: absolute;
+    left: 1060px;
+    top: 840px;
+    right: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
