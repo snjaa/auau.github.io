@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бодлого 4</title>
+</head>
+<body>
+    <script>
+        var distance = window.prompt("Анхны зайгаа километрээр оруулна уу");
+        var duration = distance / 7;
+        var duration_min = duration * 60;
+        var duration_sec = duration_min % 60;
+        duration_min = Math.floor(duration_min);
+        alert(duration_min + " мин  " + duration_sec + " секундын дараа гүйцнэ");
+    </script>
+</body>
+</html>
