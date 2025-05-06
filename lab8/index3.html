@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,16 @@
 </head>
 <body>
     <script>
-        var num = window.prompt("Тоогоо оруулаарай");
+        var number = window.prompt("Тоогоо оруулна уу");
+        var primeNumber = "";
+
+        for (var i = 2; i <= number; i++) {
+            while (number % i === 0) {
+                primeNumber += i + " ";
+                number = number / i;
+            }
+        }
+        alert("Анхдагч үржвэрүүд: " + primeNumber);
     </script>
 </body>
 </html>
