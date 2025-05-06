@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бодлого 6</title>
+</head>
+<body>
+    <script>
+        var n=prompt("tootiin dugaaaraa oruulna uu");
+        //9n davhr 3orts davhart 4n ail
+        var orts = Math.floor(n/36) + 1;
+        var davhar = Math.floor(((n-1)%36)/4)+1;
+        var haalga = n%4;
+        if(haalga===0){
+            haalga=4;
+        }
+        alert("Орцны дугаар : "+ orts + "  Давхарын тоо : "+ davhar + "  Хаалганы тоо: " + haalga);
+    </script>
+</body>
+</html>

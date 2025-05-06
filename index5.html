@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бодлого 5</title>
+</head>
+<body>
+    <script>
+        var n = window.prompt("Хүснэгтийн элементийн тоог оруулна уу.");
+        var m=0;
+        var k=0;
+        const a = new Array(n);
+        const b = new Array();
+        const c = new Array();
+        for(var i=0; i < n; i++){
+            a[i] = window.prompt(i + " дугаар элементийг оруулна уу");
+        }
+        for( var i=0; i<n; i++){
+            if(a[i]%2===0){
+                b[k]=a[i];
+                k++;
+            }else{
+                c[m]=a[i];
+                m++;
+            }
+        }
+        alert("Тэгш тоонууд нь :  " + b);
+        alert("Сондгой тоонууд нь :  " + c);
+    </script>
+</body>
+</html>
