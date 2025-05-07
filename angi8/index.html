@@ -7,12 +7,20 @@
 </head>
 <body>
     <script>
-        var n=window.prompt("Toogoo oruulna uu");
-        var k=0;
-        for(var i=1; i<=n; i*=2){
-            k++;
+        var n = prompt("Тоогоо оруулна уу:");
+        var a = n;
+        var result = [];
+
+        var power = 0;
+        while (n > 0) {
+            if (n % 2 === 1) {
+                result.unshift("2^" + power);
+            }
+            n = Math.floor(n / 2);
+            power++;
         }
-        alert("2 iin " + (k-1) + " zeregt baina");
+
+        alert(a + " = " + result.join(" + "));
     </script>
 </body>
 </html>
